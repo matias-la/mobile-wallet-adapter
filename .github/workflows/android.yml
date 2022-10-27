@@ -2,10 +2,10 @@ name: Android CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ test ]
     paths: [ '.github/**', 'android/**' ]
   pull_request:
-    branches: [ main ]
+    branches: [ test ]
     paths: [ '.github/**', 'android/**' ]
   release:
     types: [ published ]
